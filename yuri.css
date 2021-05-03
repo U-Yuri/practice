@@ -59,28 +59,35 @@ a {
   text-transform: none;
 }
 .page-title {
-  font-size: 5rem;
-  font-family: 'phirosopher', serif;
+  font-size: 4rem;
+  font-family: 'Train One', cursive;
   text-transform: uppercase;
   font-weight: normal;
 }
 .button {
   font-size: 1.375rem;
-  background: #5b5c76;
-  color: #e6f0f0;
-  border-radius: 5px;
+  font-family: 'Itim', cursive;
+  letter-spacing: .2rem;
+  color: #000000;
+  border: 1px solid #000000;
   padding: 18px 32px;
 }
 .botton:hover {
   background: #7acde1;
 }
-
+.coments {
+  display: flex;
+  writing-mode: vertical-rl;
+  align-items: center;
+  width: 100%;
+  font-size: 1rem;
+}
 /* モバイル版
 ---------------------------- */
 @media (max-width: 800px) {
   #home {
-    background-image: url(yuri.jpeg);
-    min-height: 100vh;
+    background-image: url(yurimobile.jpeg);
+    min-height: 60vh;
     background-position: left;
   }
   .main-nav {
@@ -96,11 +103,27 @@ a {
     margin-left: 8px;
   }
   .page-title {
-    font-size: 3rem;
-    font-family: 'philosopher', serif;
+    font-size: 1rem;
+    font-family: 'Train One', cursive;
     text-transform: uppercase;
     font-weight: normal;
-    text-align: right;
+    text-align: left;
   }
-
-}
+  .button {
+    font-family: 'Itim', cursive;
+    font-size: 1rem;
+    letter-spacing: .2rem;
+    color: #000000;
+    border: 1px solid #000000;
+    padding: 10px 20px;
+  }
+  .botton:hover {
+    background: #7acde1;
+  }
+  .coments {
+    display: flex;
+    writing-mode: vertical-rl;
+    align-items: center;
+    width: 100%;
+    font-size: 0.5rem;
+  }
