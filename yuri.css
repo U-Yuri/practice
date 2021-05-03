@@ -110,6 +110,7 @@ a {
     background: #7acde1;
   }
   .coments {
+    font-family: 'New Tegomin', serif;
     display: flex;
     writing-mode: vertical-rl;
     align-items: center;
