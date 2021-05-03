@@ -114,6 +114,5 @@ a {
     display: flex;
     writing-mode: vertical-rl;
     align-items: right;
-    width: 100%;
     font-size: 0.9rem;
   }
