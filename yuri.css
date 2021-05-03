@@ -30,6 +30,8 @@ a {
 
 .home-content {
   text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 .home-content p {
   font-style: 1.125rem;
@@ -52,7 +54,7 @@ a {
 }
 .page-title {
   font-size: 4rem;
-  font-family: 'Train One', cursive;
+  font-family: 'Wallpoet', cursive;
   text-transform: uppercase;
   font-weight: normal;
   text-align: left;
@@ -85,8 +87,8 @@ a {
   }
 
   .page-title {
-    font-size: 1rem;
-    font-family: 'Train One', cursive;
+    font-size: 2rem;
+    font-family: 'Wallpoet', cursive;
     text-transform: uppercase;
     font-weight: normal;
     text-align: left;
@@ -98,6 +100,11 @@ a {
     color: #000000;
     border: 1px solid #000000;
     padding: 10px 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    margin-top: 100px;
+    margin-bottom: 50px;
   }
   .botton:hover {
     background: #7acde1;
